@@ -12,24 +12,26 @@ background-color: tomato;
 }
 
 body{
-/* more about this crazy alphanumeric value in a minute */
+/* applies to the body of the website */
 color: #39a6b2;
 font-family: Helvetica, Arial, sans-serif;
 }
 
-/*apply style to the <heder>*/
+/*apply style to the <header>*/
 
 header{
     padding: 20px 35px;
     background-color: #39a6b2;
 }
 
-header{
+header h1{
   font-weight: bold;  
   font-size: 36px;
   color: #fce138;
   margin: 0;
+  display: inline;
 }
+
 
 header a {
     text-decoration: none;
@@ -52,13 +54,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
-header h1 {
-font-weight: bold;
-font-size: 36px;
-color: #fce138;
-margin: 0;
-display: inline;
-}
+
 
 footer { 
     background-color: #fce138;
@@ -80,7 +76,7 @@ footer div{
 }
 
 footer a {
-    color: #76021f;
+    color: #024e76;
 }
 
 
@@ -89,8 +85,6 @@ section {
 }
 
 /* Hero style start*/
-
-
 
 
 .hero {
@@ -103,18 +97,31 @@ position: relative;
 }
 /*End hero style*/
 
+.hero-form {
+    
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    border-width: 3px;
+    border-color: #024e76;
+    bottom: 120px;
+    right: 140px;
+    }
+
 /* hero-form styling start*/
 
 
 .hero-form h3{
-    margin: 0;
     font-size: 24px;
+    margin: 0;
 }
 
 .hero-form p{
     margin: 5px 0 15px 0;
 }
-
 
 
 .form-input{
@@ -128,19 +135,7 @@ position: relative;
     margin-bottom: 15px
 }
 
-.hero-form {
-    
-border: 3px solid #024e76;
-background-color: #fce138;
-padding: 20px;
-width: 500px;
-color: #024e76;
-position: absolute;
-border-width: 3px;
-border-color: #024e76;
-bottom: 120px;
-right: 140px;
-}
+
 
 .hero-form label{
     margin: 0 5px;
@@ -160,6 +155,14 @@ right: 140px;
     text-align: center;
 }
 
+.intro p{
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
 .section-title{
     font-size: 55px;
     color: #024e76;
@@ -170,21 +173,15 @@ right: 140px;
 }
 
 
-.primary-boarder{
+.primary-border{
     border-color: #fce138;  
 }
 
-.secondary-boarder{
+.secondary-border{
     border-color: #39a6b2;
 }
 
-.intro p{
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-}
+
 
 .steps {
     text-align: center;
@@ -234,8 +231,7 @@ text-align: center;
     float: left;
   }
 
-.trainer-bio{
-    
+.trainer-bio{ 
 padding: 35px;
 float: left;
 width: 65%;
@@ -277,9 +273,9 @@ color: #fce138;
   }
 
   .contact h3{
-color: #fce138;
-font-size: 32px;
-  }
+    color: #fce138;
+    font-size: 32px;
+      }
 
 
 .contact-info iframe{
