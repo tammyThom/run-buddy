@@ -60,7 +60,7 @@ header nav ul {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.5vw;
+    font-size: 1.55vw;
 }
 
 
@@ -71,7 +71,7 @@ footer {
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -124,7 +124,6 @@ flex-wrap: wrap;
 
 
 
-
 }
 /*End hero style*/
 
@@ -133,14 +132,14 @@ flex-wrap: wrap;
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 40%;
-    margin: 3.5%;
-   
     color: #024e76;
-   
-    border-width: 3px;
+    width: 40%;
     border-color: #024e76;
+    margin: 3.5%;
     
+    
+  }
+
     }
 
 /* hero-form styling start*/
@@ -253,11 +252,16 @@ flex: 1 30%;
     .step-img {
         flex: 1 12%;
         margin-right: 20px;
+        max-width:100%;
+      }
+
+      .step-img img{
+        max-width: 100%;
       }
     
-      .step-img img{
+      /* .step-img img{
           max-width:100% ;
-      }
+      } */
 
 .step-text h4{
     font-size: 26px;
@@ -301,19 +305,20 @@ width: 65%;
 }
 
 .trainer-bio h3{
-    font-size: 32px;
-    margin-bottom: 8px;
+    font-size: 28px;
+   
 }
 
 .trainer-bio h4{
     font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 26px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    line-height: 1.3;
 }
 
 .trainer-bio p{
 font-size: 17px;
-line-height: 1.3;
+
 
 }
 .text-left{
